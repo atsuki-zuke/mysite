@@ -55,8 +55,7 @@ $(function () {
 
     $('.item_page2').hover(
         function(){
-            $(this).find('.text').slideDown();
-            
+            $(this).find('.text').slideDown(); 
         },
         function(){
             $(this).find('.text').slideUp();
