@@ -1,12 +1,4 @@
 $(function () {
-    $('#menu_btn').click(function(){
-        $('.background').fadeIn();
-    });
-
-    $('.close-modal').click(function(){
-        $('.background').fadeOut();
-    })
-
     $('.scroll-btn').click(function(){
         var id=$(this).attr('href');
 
@@ -59,6 +51,28 @@ $(function () {
             $(this).css('background-color','rgba(0,0,0,0.4)');
         }
     );
+
+
+    $('.item_page2').hover(
+        function(){
+            $(this).find('.text').slideDown();
+            
+        },
+        function(){
+            $(this).find('.text').slideUp();
+        }
+    );
+
+    $('.btn').click(function(){
+        if($('.color-change').hasClass('open')){
+            $('.color-change').css('display','block');
+            $('.color-change').removeClass('open');
+        }else{
+            $('.color-change').css('display','none');
+            $('.color-change').addClass('open');
+
+        }
+    });
 
 
 
