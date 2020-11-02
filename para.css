@@ -181,12 +181,12 @@
   .form input{
     padding:0 30%;
     margin:15px;
-    background-color:rgba(86, 80, 109, 0.233);
+    background-color:bisque;
   }
   textarea{
     height:70px;
     width:400px;
-    background-color:rgba(255, 255, 255, 0.08);
+    background-color:bisque;
     margin:30px;
 
   }
