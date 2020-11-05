@@ -24,7 +24,7 @@
   }
 
   .fab,.fas {
-    color:white;
+    color:tomato;
     margin-right:50px;
   }
 
@@ -38,13 +38,58 @@
     border-radius: 100%;
     width:30px;
     height:30px;
-    background-color:rgba(0,0,0,0.4);
+    background-color:rgba(0,0,0,0.7);
     display:inline-block;
     margin-top:30px;
   }
 
   .menus {
     margin-top:100px;
+  }
+
+  .one{
+    position: absolute;
+    top:383px;
+    left:50px;
+    background-color:rgba(0,0,0,0.7) ;
+   
+    color:tomato;
+    display:none;
+  }
+  .two{
+    position:absolute;
+    top:445px;
+    left:50px;
+    background-color: rgba(0,0,0,0.7);
+    color:tomato;
+    display:none;
+  }
+
+  .three{
+    position:absolute;
+    top:507px;
+    left:50px;
+    background-color: rgba(0,0,0,0.7);
+    color:tomato;
+    display:none;
+  }
+
+  .four{
+    position: absolute;
+    top:570px;
+    left:50px;
+    background-color: rgba(0,0,0,0.7);
+    color:tomato;
+    display:none;
+  }
+
+  .five{
+    position: absolute;
+    top:635px;
+    left:50px;
+    background-color: rgba(0,0,0,0.7);
+    color:tomato;
+    display:none;
   }
 
 /* bodyのｃｓｓ   */
@@ -184,10 +229,14 @@
   }
   .my h3{
     border-bottom: 2px solid black;
-    margin-bottom:30px;
+    margin-bottom:15px;
+  }
+
+  .my p{
+    padding:5px 0;
   }
   .link {
-    margin-top:30px;
+    margin-top:15px;
   }
   
   .form{
@@ -195,17 +244,25 @@
     
   }
 
-  .form input{
+  .write{
     padding:0 30%;
     margin:15px;
-    background-color:#4682b4;
+    background-color:#f0ffff;
   }
   textarea{
-    height:70px;
-    width:400px;
-    background-color:#4682b4;
-    margin:30px;
+    height:90px;
+    width:465px;
+    background-color:#f0ffff;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:15px;
+  }
 
+  .submit{
+    padding:10px;
+    margin-left:50px;
+    box-shadow:0px 0px 10px 5px rgba(0, 0, 0, 0.5) ;
+    background-color: tomato;
   }
   label{
     margin-left:20px;
@@ -247,9 +304,9 @@
   }
 
   .footer{
-    height:500px;
+    
     background-color:#002b33;
-    height:600px;
+    height:500px;
     width:100%;
     color:white;
   }
@@ -288,4 +345,9 @@
   .copywrite p{
     margin:0px;
     text-align:right;
+  }
+
+  ::placeholder{
+    color:black;
+    font-weight: bold;
   }

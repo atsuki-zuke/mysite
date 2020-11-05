@@ -45,10 +45,13 @@ $(function () {
 
     $('.menus a').hover(
         function(){
-            $(this).css('background-color','white');
+            $(this).css('background-color','tomato');
+            $(this).find('p').css('display','block');
         },
         function(){
             $(this).css('background-color','rgba(0,0,0,0.4)');
+            $(this).find('p').css('display','none');
+
         }
     );
 
@@ -65,9 +68,11 @@ $(function () {
     $('.btn').click(function(){
         if($('.color-change').hasClass('open')){
             $('.color-change').css('display','block');
+            $('.wrapper').css('display','block');
             $('.color-change').removeClass('open');
         }else{
             $('.color-change').css('display','none');
+            $('.wrapper').css('display','none');
             $('.color-change').addClass('open');
 
         }
