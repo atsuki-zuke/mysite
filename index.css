@@ -28,6 +28,12 @@
     margin-right:50px;
   }
 
+  .far{
+    color:white;
+    font-size:20px;
+  }
+
+
    .menus a{
     border-radius: 100%;
     width:30px;
@@ -70,8 +76,8 @@
   
   /* 1ページ目 */
   .cd-fixed-bg.cd-bg-1  {
-    background-color:#4682B4;
-    background: linear-gradient(#e6e6fa,#4682b4);
+  
+    background-color:#002b33;
   }
   
   /*--固定背景01--*/
@@ -227,6 +233,13 @@
     margin-bottom:30px;
     margin-top:30px;
     border-bottom: 3px solid black;
+  }
+  
+  .what p{
+    padding:20px;
+  }
+  .important p{
+    padding:20px;
   }
 
   .color-change1 p{
